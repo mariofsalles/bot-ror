@@ -4,8 +4,7 @@ configure :test do
     encoding: 'utf8',
     database: 'onechatbot_test',
     pool: 5,
-    username: 'postgres',
-    host: 'postgres'
+    username: 'hpdm1',
   }
 end
 
@@ -15,7 +14,6 @@ configure :development do
     encoding: 'utf8',
     database: 'onechatbot_development',
     pool: 5,
-    username: 'postgres',
-    host: 'postgres'
+    username: 'hpdm1',
   }
 end
