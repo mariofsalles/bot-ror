@@ -14,10 +14,6 @@ class App < Sinatra::Base
     'Hello world!'
   end
 
-    get '/sinatra' do
-    'Hello world sinatra!'
-  end
-
   post '/webhook' do
     request.body.rewind
     result = JSON.parse(request.body.read)["queryResult"]
